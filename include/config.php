@@ -24,7 +24,7 @@ function style(){
 	<link rel="stylesheet" type="text/css" href="css/css.css">
 	<link rel="stylesheet" href="css/styles.css" type="text/css">
 	<link rel="stylesheet" href="css/screen.css" type="text/css">
-	';
+';
 }
 
 function nav(){
@@ -44,9 +44,10 @@ function nav(){
 				<ul class="nav navbar-nav navbar-right">
 					<li><a href="index.php" class="section-scroll"><i class="fa fa-home fa-2x"></i>
 </a></li>
-					<li><a href="#" class="section-scroll">About</a></li>
-					<li><a href="#" class="section-scroll">Features</a></li>
-					<li><a href="order.php" class="section-scroll">Order</a></li>
+					<li><a href="index.php#features" class="section-scroll">Features</a></li>
+					<li><a href="#about" class="section-scroll">About</a></li>
+					<li><a href="#contact-form" class="section-scroll">Order</a></li>
+					<li><a href="login.php" class=section-scroll">Login</a></li>
 				</ul>
 			</div>
 		</div>
@@ -58,10 +59,10 @@ function script(){
 	<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
 	<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+	<script type="text/javaskript" src="js/map.js"></script>
 	<script type="text/javascript" src="js/preloader.js"></script> 
 	<script type="text/javascript" src="js/scroll.js"></script>
 	<script type="text/javascript" src="js/fun.js"></script>
 	';
 }
-
  ?>

@@ -5,7 +5,7 @@ error_reporting(E_ALL ^ E_NOTICE);
 
 $my_email = $_REQUEST['email'];
 $from_email = "service@orderbmw.tk";
-$continue = "order.php";
+$continue = "index.php#contact-form";
 
 
 $errors = array();
@@ -51,7 +51,7 @@ if($from_email){
 	$headers = "From: {$from_name} <{$_REQUEST['email']}>";
 }
 mail($my_email,$subject,$message,$headers);
-header('order.php');
+header('index.php#contact-form');
 ?>
 
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
@@ -62,7 +62,7 @@ header('order.php');
 <title><?php echo($all['titill']); ?></title>
 <meta http-equiv="refresh" content="1;url=order.php">
 <script type="text/javascript">
-    window.location.href = "order.php"
+    window.location.href = "index.php#contact-form"
 </script>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 </head>
